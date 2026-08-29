@@ -51,3 +51,11 @@ public class longestUniqueSubstring {
     System.out.println(lengthOfLongestSubstring(s));
   }
 }
+
+/**
+ * Time complexity: O(N)
+ *    We are running loop for n times
+ * 
+ * Space complexity: O(N)
+ *    HashSet can store atmost of n elements.
+ */
