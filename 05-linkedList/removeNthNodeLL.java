@@ -1,4 +1,5 @@
 
+import structures.ListNode;
 // Qn: Remove nth node from the end of the list
 
 public class removeNthNodeLL {  
@@ -40,7 +41,7 @@ public class removeNthNodeLL {
     // print list
     ListNode node = removeNthFromEnd(head, 2);
     while (node != null) {
-      System.out.print(node.data);
+      System.out.print(node.val);
 
       if (node.next != null) {
         System.out.print("->");
